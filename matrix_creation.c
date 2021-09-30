@@ -55,4 +55,18 @@ void main()
 		printf("\n");
 	}
 
+	// Addition of 2 matrices 
+	
+	printf("\nAddition of the 2 input matrices is:\n");
+
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<3;j++)
+		{
+			result[i][j] = m1[i][j] + m2[i][j];
+			printf("\t%d", result[i][j]);
+		}
+		printf("\n");
+	}
+
 }
